@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+<style type="text/css">
+.multifile_remove_input {
+color: red;
+text-decoration: none;
+}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.multifile.js"></script>
+</head>
+<body>
+
+<input id="file_input" type="file" name="files[]">
+<script type="text/javascript">
+    jQuery(function($)
+    {
+      $('#file_input').multifile();
+    });
+  </script>
+</body>
+</html>
